@@ -1,0 +1,6 @@
+name = input("Name?")
+birth_year = int(input("Year of Birth ?"))
+size = float(input("Size ?"))
+weight = float(input("Weight ?"))
+BMI = weight/(size**2)
+print(name, BMI)
